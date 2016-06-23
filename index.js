@@ -2,7 +2,7 @@
 
 var pathfinder = function() {
   var paths = Array.prototype.slice.call(arguments);
-  return [].concat.apply([], arrays);
-});
+  return [].concat.apply([], paths);
+};
 
 module.exports = pathfinder;
