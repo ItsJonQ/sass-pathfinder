@@ -1,6 +1,6 @@
 {
   "name": "sass-pathfinder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tiny includePaths resolver for node-sass",
   "main": "index.js",
   "scripts": {
