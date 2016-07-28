@@ -1,4 +1,5 @@
-# sass-pathfinder [![npm version](https://badge.fury.io/js/sass-pathfinder.svg)](https://badge.fury.io/js/sass-pathfinder)
+# sass-pathfinder [![Build Status](https://travis-ci.org/ItsJonQ/sass-pathfinder.svg?branch=master)](https://travis-ci.org/ItsJonQ/sass-pathfinder) [![npm version](https://badge.fury.io/js/sass-pathfinder.svg)](https://badge.fury.io/js/sass-pathfinder)
+
 A tiny robust includePath resolver for [node-sass](https://github.com/sass/node-sass)
 
 
