@@ -1,5 +1,5 @@
 # sass-pathfinder [![npm version](https://badge.fury.io/js/sass-pathfinder.svg)](https://badge.fury.io/js/sass-pathfinder)
-A tiny includePath resolver for [node-sass](https://github.com/sass/node-sass)
+A tiny robust includePath resolver for [node-sass](https://github.com/sass/node-sass)
 
 
 ## Install
@@ -19,7 +19,7 @@ gulp.task('sass', function () {
   return gulp.src('./sass/**/*.scss')
     .pipe(sass({
       includePaths: pathfinder(
-        './source-a', 
+        './source-a',
         ['../source-b', 'source-c/source-c1']
       )
     }))

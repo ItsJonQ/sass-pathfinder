@@ -4,10 +4,18 @@
   "description": "A tiny includePaths resolver for node-sass",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha --reporter spec --recursive --growl",
+    "prepublish": "npm run test"
   },
   "authors": [
     "ItsJonQ <itsjonq@gmail.com>"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.14.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
 }
