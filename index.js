@@ -1,6 +1,5 @@
 // Sass Pathfinder
 
-var _ = require('lodash');
 var uniq = require('lodash.uniq');
 var flattenDeep = require('lodash.flattendeep');
 
